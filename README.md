@@ -16,7 +16,6 @@ llm/                  # Language model and generator modules
 rag/                  # Indexing and retrieval modules
 utils/                # Utility scripts (e.g., PubMed integration)
 requirements.txt      # Python dependencies
-Dockerfile            # Containerization support
 ```
 
 ## Getting Started
@@ -24,7 +23,7 @@ Dockerfile            # Containerization support
 ### Prerequisites
 - Python 3.8+
 - pip
-- (Optional) Docker
+
 
 ### Installation
 1. Clone the repository:
@@ -39,14 +38,10 @@ Dockerfile            # Containerization support
 
 ### Running the Application
 ```
-python app.py
+streamlit run app.py
 ```
 
-Or with Docker:
-```
-docker build -t medical-qa-assistant .
-docker run -p 8000:8000 medical-qa-assistant
-```
+
 
 ## Usage
 - Start the application and interact with the assistant via the provided interface (CLI, API, or web UI as implemented).
