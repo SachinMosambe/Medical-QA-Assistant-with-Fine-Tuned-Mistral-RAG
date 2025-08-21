@@ -7,7 +7,7 @@ A powerful Medical Question Answering Assistant leveraging Retrieval-Augmented G
 - Fine-tuned Mistral LLM for medical domain
 - Modular codebase for easy extension
 - PubMed integration for up-to-date medical information
-- Docker support for easy deployment
+
 
 ## Project Structure
 ```
